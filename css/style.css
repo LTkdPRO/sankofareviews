@@ -1,0 +1,107 @@
+body { 
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    color: green;
+    font-size: 48px; 
+    font-family: 'Vast Shadow', cursive;
+    text-decoration: none;
+}
+#LEFTSD {
+    float: left;
+    width: 10%;
+    background-color: green; 
+    color: green;
+    /*green bar on left side of pages*/
+}
+
+
+#container {
+    float: left;
+    width: 80%;
+    /*background-color: #5f148b;*/
+}
+
+#RIGHTSD {
+    float: right;
+    width: 10%;
+    background-color: red;
+    color: red;
+    clear: both;
+    /*red bar on right side of pages*/
+}
+
+a {
+    color: yellow;
+}
+a: visited {
+    color: purple;
+}
+
+p {
+    color: red;
+    font-size: 22px; 
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px 15px 15px 15px;
+    display: inline;
+    font-family: Arial-Black;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+#noline {
+    text-decoration: none;
+}
+
+div > a {
+    text-decoration: none;
+}
+
+.footer {
+    font-family: Sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    clear: both;
+    width: auto;
+   
+}
+.content {
+    float: right;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+}
+.container1 {
+    float: left;
+    width: 30%;
+    
+}
+.pic1 {
+    background-color: green;
+    float: left;
+    font-size: 22px; 
+    font-family: Serif;
+}
+.pic2 { 
+    background-color: yellow;
+}
+.pic3 {
+    font-family: Serif;
+    font-size: 22px;
+    text-align: center;
+    background-color: green;
+    width: 70%;
+    border: 10px solid yellow;
+}
+.pic4 {
+    float: right;
+    border: 25px solid red;
+    text-align: center;
+}
